@@ -67,7 +67,6 @@
     <!-- BEGIN GLOBAL MANDATORY STYLES -->
     <link href="{{ asset('./assets/admin/css/tabler.css') }}" rel="stylesheet" />
     <!-- END GLOBAL MANDATORY STYLES -->
-    
     <!-- BEGIN CUSTOM FONT -->
     <style>
       @import url("https://rsms.me/inter/inter.css");
@@ -99,10 +98,16 @@
         <div class="card card-md">
           <div class="card-body">
             <h2 class="h2 text-center mb-4">Login to your account</h2>
-            <form action="./" method="get" autocomplete="off" novalidate>
+
+            <!-- Session Status -->
+            <x-auth-session-status class="mb-4" :status="session('status')" />
+
+            <form action="{{ route('admin.login') }}" method="POST" autocomplete="off" novalidate>
+                @csrf
               <div class="mb-3">
                 <label class="form-label">Email address</label>
-                <input type="email" class="form-control" placeholder="your@email.com" autocomplete="off" />
+                <input type="email" name="email" :value="old('email')" class="form-control" placeholder="your@email.com" autocomplete="off" />
+                <x-input-error :messages="$errors->get('email')" class="mt-2" />
               </div>
               <div class="mb-2">
                 <label class="form-label">
@@ -112,7 +117,7 @@
                   </span>
                 </label>
                 <div class="input-group input-group-flat">
-                  <input type="password" class="form-control" placeholder="Your password" autocomplete="off" />
+                  <input type="password" name="password" class="form-control" placeholder="Your password" autocomplete="off" />
                   <span class="input-group-text">
                     <a href="#" class="link-secondary" title="Show password" data-bs-toggle="tooltip"
                       ><!-- Download SVG icon from http://tabler.io/icons/icon/eye -->
@@ -133,10 +138,11 @@
                     ></a>
                   </span>
                 </div>
+                <x-input-error :messages="$errors->get('password')" class="mt-2" />
               </div>
               <div class="mb-2">
                 <label class="form-check">
-                  <input type="checkbox" class="form-check-input" />
+                  <input type="checkbox" class="form-check-input" name="remember"/>
                   <span class="form-check-label">Remember me on this device</span>
                 </label>
               </div>
