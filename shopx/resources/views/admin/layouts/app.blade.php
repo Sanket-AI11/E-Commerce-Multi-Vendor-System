@@ -14,7 +14,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Sign in - Tabler - Premium and Open Source dashboard template with responsive and high quality UI.</title>
     <!-- BEGIN GLOBAL MANDATORY STYLES -->
-    <link href="{{ asset('assets/admin/dist/css/tabler.css') }}" rel="stylesheet" />
+    <link href="./dist/css/tabler.css?1750026890" rel="stylesheet" />
     <!-- END GLOBAL MANDATORY STYLES -->
     <!-- BEGIN PLUGINS STYLES -->
     <link href="./dist/css/tabler-flags.css?1750026890" rel="stylesheet" />
