@@ -13,7 +13,7 @@ Route::get('/dashboard', function () {
 
 
 Route::get('/admin/dashboard', function () {
-    return view('admin.layouts.app');
+    return view('admin.dashboard.index');
 })->middleware(['auth:admin', 'verified'])->name('admin.dashboard');
 
 
