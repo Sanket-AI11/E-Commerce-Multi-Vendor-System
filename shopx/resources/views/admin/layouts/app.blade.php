@@ -200,7 +200,7 @@
                 @yield('contents')
             </div>
             <!-- END PAGE BODY -->
-            
+
             <!--  BEGIN FOOTER  -->
             <footer class="footer footer-transparent d-print-none">
                 <div class="container-xl">
@@ -224,18 +224,11 @@
         </div>
     </div>
 
-    <!-- BEGIN PAGE LIBRARIES -->
-    {{-- <script src="./dist/libs/apexcharts/dist/apexcharts.min.js?1750026893" defer></script>
-    <script src="./dist/libs/jsvectormap/dist/jsvectormap.min.js?1750026893" defer></script>
-    <script src="./dist/libs/jsvectormap/dist/maps/world.js?1750026893" defer></script>
-    <script src="./dist/libs/jsvectormap/dist/maps/world-merc.js?1750026893" defer></script> --}}
-    <!-- END PAGE LIBRARIES -->
     <!-- BEGIN GLOBAL MANDATORY SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="{{ asset('./assets/admin/js/tabler.min.js') }}" defer></script>
     <!-- END GLOBAL MANDATORY SCRIPTS -->
-    <!-- BEGIN DEMO SCRIPTS -->
-    {{-- <script src="./preview/js/demo.min.js?1750026893" defer></script> --}}
-    <!-- END DEMO SCRIPTS -->
+    
 </body>
 
 </html>
