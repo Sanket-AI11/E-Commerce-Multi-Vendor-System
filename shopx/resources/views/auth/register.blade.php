@@ -18,7 +18,7 @@
                                     <form method="POST" action="{{ route('register') }}">
                                         @csrf
                                         <div class="form-group">
-                                            <input type="text" required="" name="name" placeholder="Username" />
+                                            <input type="text" required="" name="name" placeholder="Username" value="{{ old('name') }}"/>
                                             <x-input-error :messages="$errors->get('name')" class="mt-2" />
                                         </div>
                                         <div class="form-group">
