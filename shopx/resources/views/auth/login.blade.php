@@ -9,12 +9,10 @@
                 <div class="col-xl-8 col-lg-10 col-md-12 m-auto">
                     <div class="row">
                         <div class="col-lg-6 pr-30 d-none d-lg-block">
-                            <img class="border-radius-15" src="assets/frontend/dist/imgs/page/login-1.png" alt="" />
+                            <img class="border-radius-15" src="{{ asset('assets/frontend/dist/imgs/page/login-1.png') }}" alt="" />
                         </div>
                         <div class="col-lg-6 col-md-8">
-                            <!-- Session Status -->
                             <x-auth-session-status class="mb-4" :status="session('status')" />
-
                             <div class="login_wrap widget-taber-content background-white">
                                 <div class="padding_eight_all bg-white">
                                     <div class="heading_s1">
@@ -44,8 +42,7 @@
                                                             me</span></label>
                                                 </div>
                                             </div>
-                                            <a class="text-muted" href="{{ route('password.request') }}">Forgot
-                                                password?</a>
+                                            <a class="text-muted" href="{{ route('password.request') }}">Forgot password?</a>
                                         </div>
                                         <div class="form-group">
                                             <button type="submit" class="btn btn-heading btn-block hover-up"
