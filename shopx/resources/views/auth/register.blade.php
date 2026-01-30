@@ -3,7 +3,7 @@
 @section('contents')
     <x-frontend.breadcrumb :items="[['label' => 'Home', 'url' => '/'], ['label' => 'Register']]" />
 
-    <div class="page-content pt-150 pb-140">
+    <div class="page-content pt-50 pb-140">
         <div class="container">
             <div class="row">
                 <div class="col-12 m-auto">
@@ -35,22 +35,22 @@
                                             <x-input-error :messages="$errors->get('password_confirmation')" class="mt-2" />
                                         </div>
 
-                                        {{-- <div class="payment_option mb-30">
+                                        <div class="payment_option mb-30">
                                             <div class="custome-radio">
                                                 <input class="form-check-input" required="" type="radio"
-                                                    name="payment_option" id="exampleRadios3" checked="" />
+                                                    name="user_type" id="exampleRadios3" value="user" checked="" />
                                                 <label class="form-check-label" for="exampleRadios3"
                                                     data-bs-toggle="collapse" data-target="#bankTranfer"
                                                     aria-controls="bankTranfer">I am a customer</label>
                                             </div>
                                             <div class="custome-radio">
                                                 <input class="form-check-input" required="" type="radio"
-                                                    name="payment_option" id="exampleRadios4" checked="" />
+                                                    name="user_type" id="exampleRadios4" value="vendor" checked="" />
                                                 <label class="form-check-label" for="exampleRadios4"
                                                     data-bs-toggle="collapse" data-target="#checkPayment"
                                                     aria-controls="checkPayment">I am a vendor</label>
                                             </div>
-                                        </div> --}}
+                                        </div>
                                         <div class="form-group mb-0">
                                             <button type="submit"
                                                 class="btn btn-fill-out btn-block hover-up font-weight-bold"
