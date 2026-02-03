@@ -27,7 +27,7 @@
                                         <a class="nav-link"href="#address"><i class="fi-rs-marker mr-10"></i>My Address</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#account-detail"><i class="fi-rs-user mr-10"></i>Account
+                                        <a class="nav-link" href="{{ route('profile') }}"><i class="fi-rs-user mr-10"></i>Account
                                             details</a>
                                     </li>
                                     <li class="nav-item">
