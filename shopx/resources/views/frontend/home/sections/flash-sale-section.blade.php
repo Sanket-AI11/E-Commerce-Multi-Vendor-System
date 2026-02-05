@@ -71,8 +71,8 @@
                                             <div class="product-rating" style="width: 80%"></div>
                                         </div>
                                         <div class="product-price mt-10">
-                                            <span>$238.85 </span>
-                                            <span class="old-price">$245.8</span>
+                                            <span>Rs.238.85 </span>
+                                            <span class="old-price">Rs.245.8</span>
                                         </div>
                                         <div class="sold mt-15 mb-15">
                                             <div class="progress mb-5">
@@ -119,8 +119,8 @@
                                             <div class="product-rating" style="width: 80%"></div>
                                         </div>
                                         <div class="product-price mt-10">
-                                            <span>$238.85 </span>
-                                            <span class="old-price">$245.8</span>
+                                            <span>Rs.238.85 </span>
+                                            <span class="old-price">Rs.245.8</span>
                                         </div>
                                         <div class="sold mt-15 mb-15">
                                             <div class="progress mb-5">
@@ -167,8 +167,8 @@
                                             <div class="product-rating" style="width: 80%"></div>
                                         </div>
                                         <div class="product-price mt-10">
-                                            <span>$238.85 </span>
-                                            <span class="old-price">$245.8</span>
+                                            <span>Rs.238.85 </span>
+                                            <span class="old-price">Rs.245.8</span>
                                         </div>
                                         <div class="sold mt-15 mb-15">
                                             <div class="progress mb-5">
@@ -215,8 +215,8 @@
                                             <div class="product-rating" style="width: 80%"></div>
                                         </div>
                                         <div class="product-price mt-10">
-                                            <span>$238.85 </span>
-                                            <span class="old-price">$245.8</span>
+                                            <span>Rs.238.85 </span>
+                                            <span class="old-price">Rs.245.8</span>
                                         </div>
                                         <div class="sold mt-15 mb-15">
                                             <div class="progress mb-5">
@@ -263,8 +263,8 @@
                                             <div class="product-rating" style="width: 80%"></div>
                                         </div>
                                         <div class="product-price mt-10">
-                                            <span>$238.85 </span>
-                                            <span class="old-price">$245.8</span>
+                                            <span>Rs.238.85 </span>
+                                            <span class="old-price">Rs.245.8</span>
                                         </div>
                                         <div class="sold mt-15 mb-15">
                                             <div class="progress mb-5">
@@ -320,8 +320,8 @@
                                             <div class="product-rating" style="width: 80%"></div>
                                         </div>
                                         <div class="product-price mt-10">
-                                            <span>$238.85 </span>
-                                            <span class="old-price">$245.8</span>
+                                            <span>Rs.238.85 </span>
+                                            <span class="old-price">Rs.245.8</span>
                                         </div>
                                         <div class="sold mt-15 mb-15">
                                             <div class="progress mb-5">
@@ -368,8 +368,8 @@
                                             <div class="product-rating" style="width: 80%"></div>
                                         </div>
                                         <div class="product-price mt-10">
-                                            <span>$238.85 </span>
-                                            <span class="old-price">$245.8</span>
+                                            <span>Rs.238.85 </span>
+                                            <span class="old-price">Rs.245.8</span>
                                         </div>
                                         <div class="sold mt-15 mb-15">
                                             <div class="progress mb-5">
@@ -416,8 +416,8 @@
                                             <div class="product-rating" style="width: 80%"></div>
                                         </div>
                                         <div class="product-price mt-10">
-                                            <span>$238.85 </span>
-                                            <span class="old-price">$245.8</span>
+                                            <span>Rs.238.85 </span>
+                                            <span class="old-price">Rs.245.8</span>
                                         </div>
                                         <div class="sold mt-15 mb-15">
                                             <div class="progress mb-5">
@@ -464,8 +464,8 @@
                                             <div class="product-rating" style="width: 80%"></div>
                                         </div>
                                         <div class="product-price mt-10">
-                                            <span>$238.85 </span>
-                                            <span class="old-price">$245.8</span>
+                                            <span>Rs.238.85 </span>
+                                            <span class="old-price">Rs.245.8</span>
                                         </div>
                                         <div class="sold mt-15 mb-15">
                                             <div class="progress mb-5">
@@ -512,8 +512,8 @@
                                             <div class="product-rating" style="width: 80%"></div>
                                         </div>
                                         <div class="product-price mt-10">
-                                            <span>$238.85 </span>
-                                            <span class="old-price">$245.8</span>
+                                            <span>Rs.238.85 </span>
+                                            <span class="old-price">Rs.245.8</span>
                                         </div>
                                         <div class="sold mt-15 mb-15">
                                             <div class="progress mb-5">
@@ -568,8 +568,8 @@
                                             <div class="product-rating" style="width: 80%"></div>
                                         </div>
                                         <div class="product-price mt-10">
-                                            <span>$238.85 </span>
-                                            <span class="old-price">$245.8</span>
+                                            <span>Rs.238.85 </span>
+                                            <span class="old-price">Rs.245.8</span>
                                         </div>
                                         <div class="sold mt-15 mb-15">
                                             <div class="progress mb-5">
@@ -616,8 +616,8 @@
                                             <div class="product-rating" style="width: 80%"></div>
                                         </div>
                                         <div class="product-price mt-10">
-                                            <span>$238.85 </span>
-                                            <span class="old-price">$245.8</span>
+                                            <span>Rs.238.85 </span>
+                                            <span class="old-price">Rs.245.8</span>
                                         </div>
                                         <div class="sold mt-15 mb-15">
                                             <div class="progress mb-5">
@@ -664,8 +664,8 @@
                                             <div class="product-rating" style="width: 80%"></div>
                                         </div>
                                         <div class="product-price mt-10">
-                                            <span>$238.85 </span>
-                                            <span class="old-price">$245.8</span>
+                                            <span>Rs.238.85 </span>
+                                            <span class="old-price">Rs.245.8</span>
                                         </div>
                                         <div class="sold mt-15 mb-15">
                                             <div class="progress mb-5">
@@ -712,8 +712,8 @@
                                             <div class="product-rating" style="width: 80%"></div>
                                         </div>
                                         <div class="product-price mt-10">
-                                            <span>$238.85 </span>
-                                            <span class="old-price">$245.8</span>
+                                            <span>Rs.238.85 </span>
+                                            <span class="old-price">Rs.245.8</span>
                                         </div>
                                         <div class="sold mt-15 mb-15">
                                             <div class="progress mb-5">
@@ -760,8 +760,8 @@
                                             <div class="product-rating" style="width: 80%"></div>
                                         </div>
                                         <div class="product-price mt-10">
-                                            <span>$238.85 </span>
-                                            <span class="old-price">$245.8</span>
+                                            <span>Rs.238.85 </span>
+                                            <span class="old-price">Rs.245.8</span>
                                         </div>
                                         <div class="sold mt-15 mb-15">
                                             <div class="progress mb-5">
