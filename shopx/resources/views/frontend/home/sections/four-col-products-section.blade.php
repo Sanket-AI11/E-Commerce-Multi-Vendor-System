@@ -20,8 +20,8 @@
                                 <span class="font-small ml-5 text-muted"> (4.0)</span>
                             </div>
                             <div class="product-price">
-                                <span>$32.85</span>
-                                <span class="old-price">$33.8</span>
+                                <span>Rs.32.85</span>
+                                <span class="old-price">Rs.33.8</span>
                             </div>
                         </div>
                     </article>
@@ -40,8 +40,8 @@
                                 <span class="font-small ml-5 text-muted"> (4.0)</span>
                             </div>
                             <div class="product-price">
-                                <span>$32.85</span>
-                                <span class="old-price">$33.8</span>
+                                <span>Rs.32.85</span>
+                                <span class="old-price">Rs.33.8</span>
                             </div>
                         </div>
                     </article>
@@ -60,8 +60,8 @@
                                 <span class="font-small ml-5 text-muted"> (4.0)</span>
                             </div>
                             <div class="product-price">
-                                <span>$32.85</span>
-                                <span class="old-price">$33.8</span>
+                                <span>Rs.32.85</span>
+                                <span class="old-price">Rs.33.8</span>
                             </div>
                         </div>
                     </article>
@@ -86,8 +86,8 @@
                                 <span class="font-small ml-5 text-muted"> (4.0)</span>
                             </div>
                             <div class="product-price">
-                                <span>$32.85</span>
-                                <span class="old-price">$33.8</span>
+                                <span>Rs.32.85</span>
+                                <span class="old-price">Rs.33.8</span>
                             </div>
                         </div>
                     </article>
@@ -106,8 +106,8 @@
                                 <span class="font-small ml-5 text-muted"> (4.0)</span>
                             </div>
                             <div class="product-price">
-                                <span>$32.85</span>
-                                <span class="old-price">$33.8</span>
+                                <span>Rs.32.85</span>
+                                <span class="old-price">Rs.33.8</span>
                             </div>
                         </div>
                     </article>
@@ -126,8 +126,8 @@
                                 <span class="font-small ml-5 text-muted"> (4.0)</span>
                             </div>
                             <div class="product-price">
-                                <span>$32.85</span>
-                                <span class="old-price">$33.8</span>
+                                <span>Rs.32.85</span>
+                                <span class="old-price">Rs.33.8</span>
                             </div>
                         </div>
                     </article>
@@ -152,8 +152,8 @@
                                 <span class="font-small ml-5 text-muted"> (4.0)</span>
                             </div>
                             <div class="product-price">
-                                <span>$32.85</span>
-                                <span class="old-price">$33.8</span>
+                                <span>Rs.32.85</span>
+                                <span class="old-price">Rs.33.8</span>
                             </div>
                         </div>
                     </article>
@@ -172,8 +172,8 @@
                                 <span class="font-small ml-5 text-muted"> (4.0)</span>
                             </div>
                             <div class="product-price">
-                                <span>$32.85</span>
-                                <span class="old-price">$33.8</span>
+                                <span>Rs.32.85</span>
+                                <span class="old-price">Rs.33.8</span>
                             </div>
                         </div>
                     </article>
@@ -192,8 +192,8 @@
                                 <span class="font-small ml-5 text-muted"> (4.0)</span>
                             </div>
                             <div class="product-price">
-                                <span>$32.85</span>
-                                <span class="old-price">$33.8</span>
+                                <span>Rs.32.85</span>
+                                <span class="old-price">Rs.33.8</span>
                             </div>
                         </div>
                     </article>
@@ -218,8 +218,8 @@
                                 <span class="font-small ml-5 text-muted"> (4.0)</span>
                             </div>
                             <div class="product-price">
-                                <span>$32.85</span>
-                                <span class="old-price">$33.8</span>
+                                <span>Rs.32.85</span>
+                                <span class="old-price">Rs.33.8</span>
                             </div>
                         </div>
                     </article>
@@ -238,8 +238,8 @@
                                 <span class="font-small ml-5 text-muted"> (4.0)</span>
                             </div>
                             <div class="product-price">
-                                <span>$32.85</span>
-                                <span class="old-price">$33.8</span>
+                                <span>Rs.32.85</span>
+                                <span class="old-price">Rs.33.8</span>
                             </div>
                         </div>
                     </article>
@@ -258,8 +258,8 @@
                                 <span class="font-small ml-5 text-muted"> (4.0)</span>
                             </div>
                             <div class="product-price">
-                                <span>$32.85</span>
-                                <span class="old-price">$33.8</span>
+                                <span>Rs.32.85</span>
+                                <span class="old-price">Rs.33.8</span>
                             </div>
                         </div>
                     </article>
