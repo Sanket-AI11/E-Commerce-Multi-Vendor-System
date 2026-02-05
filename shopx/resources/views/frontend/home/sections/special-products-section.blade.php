@@ -46,8 +46,8 @@
                         </div>
                         <div class="product-card-bottom">
                             <div class="product-price">
-                                <span>$28.85</span>
-                                <span class="old-price">$32.8</span>
+                                <span>Rs.28.85</span>
+                                <span class="old-price">Rs.32.8</span>
                             </div>
                             <div class="add-cart">
                                 <a class="add" href="shop-cart.html"><i class="fi-rs-shopping-cart mr-5"></i>Add
@@ -95,8 +95,8 @@
                         </div>
                         <div class="product-card-bottom">
                             <div class="product-price">
-                                <span>$52.85</span>
-                                <span class="old-price">$55.8</span>
+                                <span>Rs.52.85</span>
+                                <span class="old-price">Rs.55.8</span>
                             </div>
                             <div class="add-cart">
                                 <a class="add" href="shop-cart.html"><i class="fi-rs-shopping-cart mr-5"></i>Add
@@ -144,8 +144,8 @@
                         </div>
                         <div class="product-card-bottom">
                             <div class="product-price">
-                                <span>$48.85</span>
-                                <span class="old-price">$52.8</span>
+                                <span>Rs.48.85</span>
+                                <span class="old-price">Rs.52.8</span>
                             </div>
                             <div class="add-cart">
                                 <a class="add" href="shop-cart.html"><i class="fi-rs-shopping-cart mr-5"></i>Add
@@ -190,8 +190,8 @@
                         </div>
                         <div class="product-card-bottom">
                             <div class="product-price">
-                                <span>$17.85</span>
-                                <span class="old-price">$19.8</span>
+                                <span>Rs.17.85</span>
+                                <span class="old-price">Rs.19.8</span>
                             </div>
                             <div class="add-cart">
                                 <a class="add" href="shop-cart.html"><i class="fi-rs-shopping-cart mr-5"></i>Add
@@ -239,8 +239,8 @@
                         </div>
                         <div class="product-card-bottom">
                             <div class="product-price">
-                                <span>$23.85</span>
-                                <span class="old-price">$25.8</span>
+                                <span>Rs.23.85</span>
+                                <span class="old-price">Rs.25.8</span>
                             </div>
                             <div class="add-cart">
                                 <a class="add" href="shop-cart.html"><i class="fi-rs-shopping-cart mr-5"></i>Add
@@ -286,8 +286,8 @@
                         </div>
                         <div class="product-card-bottom">
                             <div class="product-price">
-                                <span>$54.85</span>
-                                <span class="old-price">$55.8</span>
+                                <span>Rs.54.85</span>
+                                <span class="old-price">Rs.55.8</span>
                             </div>
                             <div class="add-cart">
                                 <a class="add" href="shop-cart.html"><i class="fi-rs-shopping-cart mr-5"></i>Add
