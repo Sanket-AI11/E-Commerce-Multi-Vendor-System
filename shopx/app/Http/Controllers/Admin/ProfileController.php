@@ -12,21 +12,24 @@ use Illuminate\Http\Request;
 class ProfileController extends Controller
 {
     use FileUploadTrait;
+
+
     function index(): View
     {
         return view('admin.profile.index');
     }
 
-    function profileUpdate(Request $request) : RedirectResponse
+    function profileUpdate(Request $request): RedirectResponse
     {
         $request->validate([
-            'name' => ['required', 'string', 'max:255'],
+            'name' => ['required', 'string', 'max:50'],
             'email' => ['required', 'email', 'unique:admins,email,' . auth('admin')->user()->id],
             'avatar' => ['nullable', 'image', 'max:2048'],
         ]);
 
+
         $user = auth('admin')->user();
-        if($request->hasFile('avatar')){
+        if ($request->hasFile('avatar')) {
             $filepath = $this->uploadFile($request->file('avatar'), $user->avatar);
             $filepath ? $user->avatar = $filepath : null;
         }
@@ -37,10 +40,9 @@ class ProfileController extends Controller
         AlertService::updated();
 
         return redirect()->back();
-        //return redirect()->route('admin.profile.index')->with('success', 'Profile updated successfully.');
     }
 
-    function passwordUpdate(Request $request) : RedirectResponse
+    function passwordUpdate(Request $request): RedirectResponse
     {
         $request->validate([
             'current_password' => ['required', 'string', 'current_password'],
