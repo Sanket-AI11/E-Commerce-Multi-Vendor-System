@@ -13,11 +13,10 @@
                     <div class="row">
                         <div class="col-md-3">
                             <div class="mb-3">
-                                <x-input-image id="image-preview" name="avatar" :image="asset(auth('admin')->user()->avatar)" />
+                                <x-input-image imageUploadId="image-upload" imagePreviewId="image-preview" imageLabelId="image-label" name="avatar" :image="asset(auth('admin')->user()->avatar)" />
                                 <x-input-error :messages="$errors->get('avatar')" class="mt-2" />
                             </div>
                         </div>
-
                         <div class="col-md-9">
                             <div class="col-md-12">
                                 <div class="mb-3">
@@ -38,7 +37,7 @@
                             </div>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-primary">Update Profile</button>
+                    <button type="submit" class="btn btn-primary">Update Account</button>
                 </form>
             </div>
         </div>
@@ -52,14 +51,14 @@
                     @csrf
                     @method('PUT')
                     <div class="row mt-30">
+
                         <div class="col-md-12">
                             <div class="mb-3">
-                                <label class="form-label required">Current Password</label>
+                                <label class="form-label required">Current password</label>
                                 <input type="password" class="form-control" name="current_password" placeholder="">
                                 <x-input-error :messages="$errors->get('current_password')" class="mt-2" />
                             </div>
                         </div>
-
                         <div class="col-md-12">
                             <div class="mb-3">
                                 <label class="form-label required">Password</label>
@@ -70,11 +69,12 @@
 
                         <div class="col-md-12">
                             <div class="mb-3">
-                                <label class="form-label required">Confirm Password</label>
+                                <label class="form-label required">Confirm password</label>
                                 <input type="password" class="form-control" name="password_confirmation" placeholder="">
                                 <x-input-error :messages="$errors->get('password_confirmation')" class="mt-2" />
                             </div>
                         </div>
+
                         <div class="col-md-12">
                             <button type="submit" class="btn btn-primary" name="submit"
                                 value="Submit">Update Password</button>
