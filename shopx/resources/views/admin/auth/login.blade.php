@@ -1,4 +1,5 @@
 <!doctype html>
+
 <html lang="en">
 
 <head>
@@ -6,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Sign in</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets/frontend/dist/imgs/theme/favicon.svg') }}" />
     <!-- BEGIN GLOBAL MANDATORY STYLES -->
-    <link href="{{ asset('./assets/admin/css/tabler.css') }}" rel="stylesheet" />
+    <link href="{{ asset('assets/admin/dist/css/tabler.css') }}" rel="stylesheet" />
     <!-- END GLOBAL MANDATORY STYLES -->
     <!-- BEGIN CUSTOM FONT -->
     <style>
@@ -22,8 +25,16 @@
     <!-- END GLOBAL THEME SCRIPT -->
     <div class="page page-center">
         <div class="container container-tight py-4">
+            <div class="text-center mb-4">
+                <!-- BEGIN NAVBAR LOGO -->
+                <a href="javascript:;" aria-label="Tabler" class="navbar-brand navbar-brand-autodark"><img
+                        src="{{ asset(config('settings.site_logo')) }}" alt="">
+                </a>
+                <!-- END NAVBAR LOGO -->
+            </div>
             <div class="card card-md">
                 <div class="card-body">
+                    <h1 class="h1 text-center mb-2">Admin Login</h1>
                     <h2 class="h2 text-center mb-4">Login to your account</h2>
 
                     <!-- Session Status -->
@@ -36,7 +47,9 @@
                             <input type="email" name="email" :value="old('email')" class="form-control"
                                 placeholder="your@email.com" autocomplete="off" />
                             <x-input-error :messages="$errors->get('email')" class="mt-2" />
+
                         </div>
+
                         <div class="mb-2">
                             <label class="form-label">
                                 Password
@@ -59,14 +72,16 @@
                                         </svg></a>
                                 </span>
                             </div>
-                            <x-input-error :messages="$errors->get('password')" class="mt-2" />
                         </div>
+
+
                         <div class="mb-2">
                             <label class="form-check">
                                 <input type="checkbox" class="form-check-input" name="remember" />
                                 <span class="form-check-label">Remember me on this device</span>
                             </label>
                         </div>
+
                         <div class="form-footer">
                             <button type="submit" class="btn btn-primary w-100">Sign in</button>
                         </div>
