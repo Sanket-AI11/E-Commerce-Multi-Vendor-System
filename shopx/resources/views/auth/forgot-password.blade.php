@@ -9,7 +9,6 @@
                 <div class="col-xl-8 col-lg-10 col-md-12 m-auto">
                     <div class="row">
                         <div class="col-lg-6 col-md-8 offset-lg-3">
-                            <!-- Session Status -->
                             <x-auth-session-status class="mb-4" :status="session('status')" />
 
                             <div class="login_wrap widget-taber-content background-white">
@@ -23,7 +22,7 @@
                                     <form method="POST" action="{{ route('password.email') }}">
                                         @csrf
                                         <div class="form-group">
-                                            <input type="email" required="" name="email" placeholder="Your Email"
+                                            <input type="email" required="" name="email" placeholder="Your Email *"
                                                 value="{{ old('email') }}" />
                                             <x-input-error :messages="$errors->get('email')" class="mt-2" />
                                         </div>
