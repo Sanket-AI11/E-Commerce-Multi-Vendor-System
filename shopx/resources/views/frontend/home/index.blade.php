@@ -17,13 +17,13 @@
     <!-- new arrival end -->
     <section class="wsus__ctg mt-40">
         <div class="container">
-            <a href="#" class="wsus__ctg_area">
-                <img src="assets/imgs/cta_bg.png" alt="cta" class="img-fluid w-100" />
+            <a href="{{ data_get($ads, 'side_banner_two.0.url', '') }}" class="wsus__ctg_area">
+                <img src="{{ asset(data_get($ads, 'side_banner_two.0.image', '')) }}" alt="cta" class="img-fluid w-100" />
             </a>
         </div>
     </section>
-    <!--CTA section end-->
-    @include('frontend.home.sections.special-products-section')
+
     <!-- special products end -->
     @include('frontend.home.sections.four-col-products-section')
+    <!--End 4 columns-->
 @endsection
